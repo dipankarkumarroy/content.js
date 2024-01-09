@@ -1,0 +1,79 @@
+        /* Your existing styles go here */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        article {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            overflow: hidden;
+            width: 300px;
+            cursor: pointer;
+        }
+
+        article img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        article h2 {
+            font-size: 1.2rem;
+            margin: 10px;
+        }
+
+        article p {
+            font-size: 1rem;
+            margin: 10px;
+        }
+
+        reader {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            overflow: hidden;
+            width: 100%;
+            cursor:auto
+        }
+
+        reader div.HeadImg {
+            text-align: center;
+        }
+
+        reader h2 {
+            font-size: 1.2rem;
+            margin: 10px;
+        }
+
+        reader p {
+            font-size: 1rem;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
